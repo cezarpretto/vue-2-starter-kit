@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="login-logo">
-            <a href="#/"><b>Qualifica</b>Web</a>
+            <a href="#/"><b>Vue</b>StarterKit</a>
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@
                 <!-- /.col -->
               </div>
             </form>
-            
+
             <a href="#">Esqueci minha senha</a><br>
 
           </div>
