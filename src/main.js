@@ -12,12 +12,14 @@ Vue.use(VueEvents);
 Vue.use(Validation);
 
 // Components
-import Main from './views/Main/Main.vue';
 import Navbar from './components/Navbar/Navbar.vue'
 import Footer from './components/Footer/Footer.vue'
 import Headerbar from './components/Headerbar/Headerbar.vue'
-import Login from './views/Login/Login.vue'
 
+// Views
+import Main from './views/Main/Main.vue';
+import Login from './views/Login/Login.vue'
+import NotFound from './views/NotFound/NotFound.vue';
 // Directives
 import modalfocus from './directives/modalfocus';
 
@@ -30,7 +32,7 @@ import dateFilter from './filters/dateFilter';
 const routes = [
   { path: '/', component: Main },
   { path: '/login', component: Login },
-  { path: '/**', component: Main }
+  { path: '/**', component: NotFound }
 ];
 
 const router = new VueRouter({
