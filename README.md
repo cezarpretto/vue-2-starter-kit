@@ -1,6 +1,6 @@
-# qualifica-front
+# Vue 2 Starter Kit
 
-> A Vue.js project
+> A Vue 2 Starter Kit with Webpack
 
 ## Build Setup
 
